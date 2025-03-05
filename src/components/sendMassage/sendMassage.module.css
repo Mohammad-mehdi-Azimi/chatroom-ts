@@ -1,0 +1,95 @@
+.headOfMassage {
+  background-color: white;
+  position: fixed;
+  top: 816px;
+  left: 447.5px;
+  width: 1458px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #eeeeee;
+}
+.headOfMassage input {
+  width: 2000px;
+  height: 55px;
+  padding-left: 55px;
+  font-size: 18px;
+  position: relative;
+  left: 77px;
+  border: none;
+  outline: none;
+}
+.headOfMassage img {
+  position: relative;
+  width: 35px;
+  right: 1223px;
+
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.headOfMassage img:hover {
+  background-color: #73e5a2;
+}
+
+.headOfMassage h3 {
+  color: #27ae60;
+  display: inline;
+  position: relative;
+  right: 80px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 2s;
+}
+.headOfMassage h3:active {
+  background-color: #000000;
+  height: 50px;
+  border-radius: 15px;
+}
+
+
+@media (max-width: 1280px) {
+  .headOfMassage {
+    top: 1030px;
+    height: 86px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headOfMassage {
+    top: 1289px;
+    width: 1467px;
+    height: 110px;
+  }
+  .headOfMassage h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headOfMassage {
+    top: 1790px;
+   left: 520px;
+    width: 1467px;
+    height: 147px;
+  }
+  .headOfMassage input {
+    width: 3000px;
+    height: 89px;
+    font-size: 29px;
+  }
+  .headOfMassage img {
+    width: 116px;
+    right: 1126px;
+  }
+  .headOfMassage h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .headOfMassage {
+    top: 2181px;
+  }
+}

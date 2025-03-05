@@ -1,0 +1,203 @@
+.headContact {
+  width: 347px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted #d4d4d4;
+}
+
+.headContact:hover {
+  background-color: #d4d4d4;
+  cursor: pointer;
+}
+
+.box {
+  width: 301px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  display: block;
+  border-radius: 100%;
+  position: relative;
+}
+.profile:hover {
+  width: 58px;
+  height: 58px;
+}
+
+.informention {
+  width: 192px;
+  height: 48px;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  text-align: center;
+}
+
+.informention h1 {
+  text-align: left;
+  font-size: 20px;
+  width: 192px;
+  height: 16px;
+  margin: 0;
+  font-weight: lighter;
+  position: relative;
+}
+
+.informention h2 {
+  font-size: 19px;
+  width: 270px;
+  text-align: left;
+  color: #000000;
+  opacity: 45%;
+  margin-top: 12px;
+  font-weight: 500;
+  position: relative;
+}
+
+.date {
+  width: 40px;
+  height: 48px;
+  position: relative;
+}
+
+.date h1 {
+  color: #000000;
+  opacity: 65%;
+  width: 40px;
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.date img {
+  width: 12px;
+  height: 12px;
+  margin: 19px 0 0 28px;
+  position: relative;
+}
+
+.online {
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin-left: -10px;
+  margin-top: 21px;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .headContact {
+    height: 81px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headContact {
+    height: 108px;
+  }
+  .profile {
+    width: 80px;
+    height: 80px;
+  }
+
+  .informention h1 {
+    font-size: 23px;
+    width: 263px;
+    margin-bottom: 5px;
+  }
+
+  .informention h2 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headContact {
+    height: 151px;
+    width: 418px;
+  }
+
+  .profile {
+    width: 100px;
+    height: 100px;
+    right: 40px;
+  }
+
+  .informention h1 {
+    font-size: 30px;
+    width: 263px;
+    margin-bottom: 5px;
+    right: 45px;
+  }
+
+  .informention h2 {
+    font-size: 26px;
+    right: 45px;
+  }
+  .online {
+    width: 30px;
+    height: 30px;
+    right: 45px;
+  }
+}
+
+@media (max-width: 640px) {
+   .headContact {
+    height: 191px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headContact {
+    width: 478px;
+    height: 78px;
+  }
+
+  .profile {
+    width: 60px;
+    height: 60px;
+    right: 69px;
+    margin-left: 10px;
+  }
+
+  .informention h1 {
+    font-size: 23px;
+    right: 76px;
+  }
+
+  .informention h2 {
+    font-size: 20px;
+    right: 76px;
+  }
+
+  .online {
+    width: 13px;
+    height: 13px;
+    right: 72px;
+  }
+
+  .date {
+    left: 62px;
+  }
+
+  .date h1 {
+    font-size: 17px;
+  }
+
+  .date img {
+    width: 24px;
+    height: 24px;
+    right: 7px;
+  }
+}

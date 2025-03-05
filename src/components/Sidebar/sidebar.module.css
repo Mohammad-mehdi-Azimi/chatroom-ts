@@ -1,0 +1,230 @@
+.headOfSide {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 901px;
+  align-items: center;
+}
+
+.logo {
+  margin: 30px 0 15px;
+  width: 60px;
+}
+
+.myPicture {
+  width: 55px;
+  border-radius: 100%;
+}
+
+.line {
+  background-color: #000000;
+  opacity: 10%;
+  border-radius: 50px;
+  display: inline-block;
+  width: 65px;
+  height: 2px;
+  margin: 30px 0 0;
+}
+
+.switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 333px;
+  margin-top: 17px;
+  margin-bottom: 214px;
+}
+
+.browserIcon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.browserIcon:hover {
+  background-color: #73e5a2;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.browserIcon img {
+  width: 40px;
+  margin: 10px;
+}
+
+.masages {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  background-color: #27ae60;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+.masages img {
+  width: 30px;
+  margin: 15px;
+}
+
+.videoCall {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.videoCall:hover {
+  background-color: #73e5a2;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.videoCall img {
+  width: 30px;
+  margin-top: 19px;
+}
+
+.musics {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.musics:hover {
+  background-color: #73e5a2;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.musics img {
+  width: 30px;
+  margin-left: 7px;
+  margin-top: 13px;
+}
+
+.calendar {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.calendar:hover {
+  background-color: #73e5a2;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.calendar img {
+  width: 30px;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+.setting {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.setting:hover {
+  background-color: #c3c3c3;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.setting img {
+  width: 30px;
+  margin: 15px;
+}
+
+.exit {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.exit:hover {
+  background-color: #c3c3c3;
+  border-radius: 16px;
+  cursor: pointer;
+}
+.exit img {
+  width: 30px;
+  margin: 15px;
+}
+
+
+@media (max-width: 1280px) {
+  .headOfSide {
+    height: 1125px;
+    overflow: hidden;
+    height: 100vh;
+    
+  }
+  .exit {
+    top: 229px;
+  }
+  .setting {
+    top: 221px;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .headOfSide {
+    height: 1393px;
+  }
+  .exit {
+    top: 478px;
+  }
+  .setting {
+    top: 468px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headOfSide {
+    height: 1937px;
+  }
+  .exit {
+    top: 1035px;
+  }
+  .setting {
+    top: 1035px;
+  }
+}
+
+
+@media (max-width:640px) {
+  .headOfSide {
+    height: 2322px;
+     width: 100px;
+  }
+  .exit {
+    top: 1421px;
+    width: 75px;
+    height: 75px;
+  }
+  .setting {
+    top: 1421px;
+    width: 75px;
+    height: 75px;
+  }
+  .browserIcon, .masages, .videoCall, .musics, .calendar {
+    width: 75px;
+    height: 75px;
+  }
+  .browserIcon img, .masages img, .videoCall img, .musics img, .calendar img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headOfSide {
+display: none;
+  }
+}

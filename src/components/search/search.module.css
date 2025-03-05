@@ -1,0 +1,30 @@
+.search img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: -330px;
+  padding-left: 4px;
+  top: 5px;
+  
+}
+
+.search input {
+  padding: 12px;
+  background-color: #eeeeee;
+  width: 323px;
+  height: 31px;
+  font-size: 17px;
+  border-radius: 12px;
+  text-indent: 38px;
+  border: none;
+}
+
+@media (max-width: 480px) {
+  .search input {
+    margin: 0 10px 0 10px;
+    width: 412px;
+  }
+  .search img {
+    left: -433px;
+  }
+}

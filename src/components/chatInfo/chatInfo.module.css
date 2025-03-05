@@ -1,0 +1,200 @@
+.headChatInfo {
+  position: fixed;
+  left: 445px;
+  top: 0;
+  border-left: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  background-color: white;
+}
+
+.ProfileInChatBox {
+  width: 1473px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ProfileInChat {
+  display: flex;
+  width: 1435px;
+  height: 74px;
+}
+
+.prof {
+  border-radius: 100%;
+  width: 74px;
+  height: 74px;
+  position: relative;
+}
+.prof:hover {
+  cursor: pointer;
+  border: 2px solid #37c070;
+}
+.prof:focus {
+  width: 800px;
+  height: 800px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 1435px;
+  height: 74px;
+  position: relative;
+}
+
+.ProfileInChat h2 {
+  margin-left: 25px;
+  margin-top: 6px;
+  height: 26px;
+}
+
+.ProfileInChat h3 {
+  margin-left: 25px;
+  margin-top: 13px;
+  height: 26px;
+  font-weight: 500;
+  color: #37c070;
+}
+
+.boxInfo {
+  height: 100%;
+  width: 171px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.viedo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.viedo img {
+  width: 33px;
+}
+.viedo:hover {
+  background-color: #73e5a2;
+  border-radius: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 100%;
+  cursor: help;
+  position: relative;
+}
+.info img {
+  width: 33px;
+}
+.info:hover {
+  background-color: #73e5a2;
+  border-radius: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    .headChatInfo {
+width: 1397px;
+left: 517px;
+  }
+
+  .ProfileInChatBox {
+    height: 150px;
+    bottom: 28px;
+  }
+  .prof {
+    width: 135px;
+    height: 135px;
+  }
+  .profileInfo {
+    top: 37px;
+    height: 74px;
+    width: 1044px;
+  }
+  .profileInfo h2 {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
+  .profileInfo h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .info {
+    width: 125px;
+    height: 100px;
+    left: 11px;
+  }
+  .info img {
+  width: 50px;
+}
+.viedo {
+  width: 125px;
+  height: 100px;
+  left: 10px;
+}
+.viedo img {
+  width: 50px;
+}
+}
+
+@media (max-width: 768px) {
+  .headChatInfo {
+width: 1477px;
+left: 517px;
+  }
+
+  .ProfileInChatBox {
+    height: 150px;
+    bottom: 28px;
+  }
+  .prof {
+    width: 135px;
+    height: 135px;
+  }
+  .profileInfo {
+    top: 37px;
+    height: 74px;
+    width: 1044px;
+  }
+  .profileInfo h2 {
+    font-size: 33px;
+    margin-bottom: 15px;
+  }
+  .profileInfo h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .info {
+    width: 125px;
+    height: 100px;
+    left: 99px;
+  }
+  .info img {
+  width: 50px;
+}
+.viedo {
+  width: 125px;
+  height: 100px;
+  left: 74px;
+}
+.viedo img {
+  width: 50px;
+}
+}
